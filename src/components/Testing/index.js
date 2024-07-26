@@ -47,9 +47,10 @@ const Testing = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 mt-8">
       <Modal isOpen={modal.isOpen} isLoading={modal.isLoading} message={modal.message} onClose={() => setModal({ isOpen: false, isLoading: true, message: '' })} />
-      <form onSubmit={handleSubmit} className="bg-white shadow-lg rounded-lg p-8 w-full max-w-4xl">
+      <h1 className="text-4xl font-bold mb-4">INPUT TESTING</h1>
+      <form onSubmit={handleSubmit} className="bg-white shadow-lg rounded-lg p-8 w-full max-w-4xl mt-1">
         <h2 className="text-2xl font-bold mb-4">Form Data Pertanahan</h2>
         <div className="mb-4">
           <label htmlFor="nomorSertifikat" className="block text-gray-700 text-sm font-bold mb-2">Nomor Sertifikat</label>

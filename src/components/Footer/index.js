@@ -1,11 +1,14 @@
-import React from 'react'
+
+import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white text-center p-4">
-      <p>© 2024 LandChainGuard. Hak Cipta Dilindungi.</p>
-    </footer>
-  )
+    <div className="bg-gray-800 text-white rounded-t-[40px]">
+      
+      <hr />
+      <p className="flex justify-center p-5">© 2024 LandChainGuard. Hak Cipta Dilindungi.</p>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
